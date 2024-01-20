@@ -1,0 +1,137 @@
+body {
+    background-color: #A49393;
+    color: white;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 40px;
+    width: 100%;
+    left: 100px;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    border: 2px solid #000;
+}
+
+
+#resume {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 120px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+#objectiveTable1 {
+    width: 122%; /* Adjust the width as needed */
+    border-radius: 20px;
+    margin-bottom: 20px; /* Add this line to create space between the table and other boxes */
+}
+
+.column {
+    width: 110%; /* Adjust the width as needed */
+    right: 120px; /* Add this line to create space between columns */
+    border-radius: 20px;
+    
+}
+
+h1 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Georgia', serif;
+    font-size: 40px;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+    left: 60px;
+    transform: translateX(0);
+    margin-bottom: 10px;
+    display: inline-block; /* add this line to make the h1 element inline */
+}
+
+h1:after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #000;
+    width: 100%; /* adjust this to make the line longer or shorter */
+    position: absolute;
+    bottom: -10px; /* adjust this value to position the line */
+    left: 0;
+}
+
+h2 {
+    margin: 5px ;
+    margin-bottom: 10px;
+    
+}
+
+.colorChangeButton {
+    background-color: #0f0f0f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+
+#colorChangeButton1 {
+    margin-left: 140px;
+}
+
+
+.colorChangeButton.clicked {
+    background-color: rgb(204, 153, 161);
+}
+
+
+table {
+    background-color: white;
+    color: #010101;
+    border-collapse: collapse;
+    width: 110%;
+    border-radius: 20px;
+    border: 1px;
+    font-size: 12px;
+    align-items: right;
+    left: 300%;
+}
+
+table td,
+table th {
+    padding: 1px;
+    border: 1px solid #7D7098;
+    border-radius: 20px;
+    width: 5px;
+}
+
+table th {
+    background-color: #170639;
+    padding: 1px;
+    border: 1px solid #7D7098;
+    border-radius: 20px;
+    width: 5px;
+}
+.clicked {
+    background-color: rgb(215, 181, 245);
+}
